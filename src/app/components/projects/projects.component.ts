@@ -17,32 +17,32 @@ export class ProjectsComponent {
     {
       title: 'BetterThanWindows OS',
       description: 'A custom operating system concept exploring kernel design, process management, and system utilities.',
-      tech: ['C', 'Assembly', 'Linux'],
-      github: 'https://github.com'
+      tech: ['C'],
+      github: 'https://github.com/Mohamed-Ahmed285/BetterThanWindows-OS'
     },
     {
       title: 'Pac-Man AI',
       description: 'Classic Pac-Man game enhanced with pathfinding and decision-making algorithms for intelligent ghost behavior.',
-      tech: ['Python', 'Pygame', 'AI'],
-      github: 'https://github.com'
+      tech: ['CPP', 'Console Game', 'AI' , 'SFML'],
+      github: 'https://github.com/Mohamed-Ahmed285/PacMan'
     },
     {
       title: 'SkyLine System',
       description: 'An integrated management system for tracking operations, resources, and reporting in a unified dashboard.',
-      tech: ['Angular', 'Node.js', 'MongoDB'],
-      github: 'https://github.com'
+      tech: ['Java', 'Json', 'Java-Fx'],
+      github: 'https://github.com/Mohamed-Ahmed285/SkyLine-system'
     },
     {
       title: 'Hospital Readmission Prediction',
       description: 'Machine learning model that predicts patient readmission risk to support better clinical decision-making.',
       tech: ['Python', 'Scikit-learn', 'Pandas'],
-      github: 'https://github.com'
+      github: 'https://github.com/Mohamed-Ahmed285/hospital-readmission-prediction'
     },
     {
       title: 'Thoth Gate LMS',
       description: 'A full-featured learning management system with course modules, assessments, and role-based access.',
-      tech: ['Angular', 'ASP.NET', 'SQL Server'],
-      github: 'https://github.com'
+      tech: ['React', 'Laravel', 'SQL Server'],
+      github: 'https://github.com/Mohamed-Ahmed285/Thoth-Gate-1.1'
     }
   ];
 }
