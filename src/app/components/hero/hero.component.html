@@ -1,0 +1,11 @@
+<header class="hero section" id="hero">
+  <h1 class="hero-name">{{ profile.name }}</h1>
+  <p class="hero-title">{{ profile.title }}</p>
+  <p class="hero-intro">{{ profile.intro }}</p>
+  <div class="hero-actions">
+    <!-- <a class="btn btn-primary" [href]="profile.resumeUrl" download>Download Resume</a> -->
+    <a class="btn" [href]="profile.github" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" [href]="profile.linkedin" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" [href]="'mailto:' + profile.email">Email</a>
+  </div>
+</header>

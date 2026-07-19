@@ -1,0 +1,48 @@
+.desk {
+  min-height: 100vh;
+  padding: 5rem 1.5rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.paper {
+  width: 100%;
+  max-width: 900px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
+  padding: 3rem 3.5rem;
+}
+
+@media (max-width: 768px) {
+  .desk {
+    padding: 4.5rem 1rem 2rem;
+  }
+
+  .paper {
+    padding: 2rem 1.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .desk {
+    padding: 4rem 0.5rem 1.5rem;
+  }
+
+  .paper {
+    padding: 1.75rem 1.25rem;
+    border-radius: 4px;
+  }
+}
+
+@media print {
+  .desk {
+    padding: 0;
+  }
+
+  .paper {
+    box-shadow: none;
+    max-width: 100%;
+    padding: 2rem;
+  }
+}

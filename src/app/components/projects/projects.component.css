@@ -1,0 +1,33 @@
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.project {
+  padding-bottom: 1.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.project:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.project-title {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  color: #444;
+  font-size: 0.92rem;
+  margin-bottom: 0.6rem;
+}
+
+.project-tech {
+  font-size: 0.8rem;
+  color: #777;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.85rem;
+}

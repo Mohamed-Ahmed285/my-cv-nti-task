@@ -1,0 +1,16 @@
+<section class="section" id="experience" appFadeIn>
+  <h2 class="section-title">Experience</h2>
+  <ol class="timeline">
+    <li class="timeline-item" *ngFor="let item of experiences">
+      <div class="timeline-marker" aria-hidden="true"></div>
+      <div class="timeline-content">
+        <div class="timeline-header">
+          <h3 class="timeline-company">{{ item.company }}</h3>
+          <span class="timeline-period">{{ item.period }}</span>
+        </div>
+        <p class="timeline-role">{{ item.role }}</p>
+        <p class="timeline-desc">{{ item.description }}</p>
+      </div>
+    </li>
+  </ol>
+</section>

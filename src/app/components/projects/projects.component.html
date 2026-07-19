@@ -1,0 +1,13 @@
+<section class="section" id="projects" appFadeIn>
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-grid">
+    <article class="project" *ngFor="let project of projects">
+      <h3 class="project-title">{{ project.title }}</h3>
+      <p class="project-desc">{{ project.description }}</p>
+      <p class="project-tech">
+        <span *ngFor="let t of project.tech; let last = last">{{ t }}<span *ngIf="!last"> · </span></span>
+      </p>
+      <a class="btn" [href]="project.github" target="_blank" rel="noopener">GitHub</a>
+    </article>
+  </div>
+</section>

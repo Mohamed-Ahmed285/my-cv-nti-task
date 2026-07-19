@@ -1,0 +1,12 @@
+<section class="section" id="contact" appFadeIn>
+  <h2 class="section-title">Contact</h2>
+  <ul class="contact-list">
+    <li *ngFor="let link of links">
+      <a [href]="link.href" [attr.download]="link.label === 'Resume Download' ? '' : null"
+         [target]="link.label === 'Resume Download' ? null : '_blank'"
+         [rel]="link.label === 'Resume Download' ? null : 'noopener'">
+        {{ link.label }}
+      </a>
+    </li>
+  </ul>
+</section>

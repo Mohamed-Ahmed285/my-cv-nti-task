@@ -1,0 +1,22 @@
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+
+.education-school {
+  font-size: 1.05rem;
+}
+
+.education-period {
+  font-size: 0.82rem;
+  color: #777;
+}
+
+.education-degree {
+  color: #444;
+  font-size: 0.92rem;
+}

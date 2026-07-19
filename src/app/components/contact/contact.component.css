@@ -1,0 +1,22 @@
+.contact-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-list li {
+  padding: 0.4rem 0;
+}
+
+.contact-list a {
+  font-size: 0.92rem;
+  color: #444;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-list a:hover {
+  color: #1a1a1a;
+  border-bottom-color: #ccc;
+}

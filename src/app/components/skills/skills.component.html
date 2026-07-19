@@ -1,0 +1,11 @@
+<section class="section" id="skills" appFadeIn>
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-group" *ngFor="let group of skillGroups">
+      <h3 class="skill-category">{{ group.category }}</h3>
+      <ul class="skill-list">
+        <li *ngFor="let skill of group.items">{{ skill }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
